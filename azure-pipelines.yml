@@ -16,7 +16,6 @@ steps:
   inputs:
     script: ls -la
 
-- template: ./stage1.yml
 - task: UseDotNet@2
   displayName: 'Use .NET SDK $(dotnetSdkVersion)'
   inputs:

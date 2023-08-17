@@ -1,0 +1,6 @@
+stages:
+- stage: Angular
+  jobs:
+  - job: angularinstall
+    steps:
+    - script: npm install angular
